@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isis Mayumi | Portfólio</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪼</text></svg>">
+  <!-- Google Fonts: Quicksand -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="nav-container">
+      <a href="#hero" class="logo">🪼 Isis Mayumi</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="active">Início</a></li>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato" class="btn-nav-cta">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="hero-badge">🌊 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 </span>
+          <h1>Olá, eu sou a <br><span>Isis Mayumi</span> 🪼</h1>
+          <p>Estudante de Análise e Desenvolvimento de Sistemas. Adoro transformar ideias em código com muito carinho e criatividade.</p>
+          <div class="hero-actions">
+            <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+            <a href="#contato" class="btn btn-outline">Fale Comigo</a>
+          </div>
+        </div>
+        <div class="hero-image-box">
+          <div class="cute-card-avatar">
+            <i class="fas fa-cat fa-3x" style="color: #60a5fa;"></i>
+            <h3>Isis Mayumi Ito de Souza</h3>
+            <p>⡞⠳⣄⣀⣠⠞⢷ ֹ۪</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SOBRE MIM -->
+    <section id="sobre">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <h2 class="section-heading">Sobre Mim</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <p>ᯓ★ Oi! Me chamo Mayumi. Estou sempre aprendendo novas tecnologias na ETEC e crio páginas criativas e funcionais para o seu negócio.</p>
+            <p>ᯓ★ Quando não estou programando, invisto meu tempo e criatividade criando desenhos e estudando. </p>
+          </div>
+          <div class="highlights-list">
+            <div class="highlight-item">
+              <i class="fas fa-heart"></i>
+              <div>
+                <h4>HTML, CSS e JS</h4>
+                <p>Cores suaves porém vivas, interfaces e layouts criativos.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-water"></i>
+              <div>
+                <h4>Evolução Constante</h4>
+                <p>Aprendo um passo de cada vez, entendendo meus erros e evoluindo aos poucos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="projetos">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <h2 class="section-heading">Meus Projetos</h2>
+        </div>
+        <div class="projects-grid">
+          <!-- Projeto 1 -->
+          <article class="project-card">
+            <div class="project-banner"><i class="fa-solid fa-cat"></i></div>
+            <div class="project-content">
+              <h3 class="project-title">Pawz! - Pet Shop </h3>
+              <p class="project-desc">Trabalho multidisciplinar sobre PETSHOP utilizando HTML, CSS e JavaScript.</p>
+              <div class="project-techs">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Bootstrap</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/isismayumito-ux/petshopdefini" target="_blank" class="project-link"><i class="fab fa-github"></i> Código</a>
+                <a href="https://petshopdefini.vercel.app/" class="project-link" onclick="triggerToast('Abrindo prévia com carinho! 🌊')"><i class="fas fa-external-link-alt"></i> Ver</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 2 -->
+          <article class="project-card">
+            <div class="project-banner"><i class="fa-solid fa-star-and-crescent"></i></div>
+            <div class="project-content">
+              <h3 class="project-title">Primeiro Portfólio</h3>
+              <p class="project-desc">Meu primeiro portfólio profissional, criado com HTML, CSS.</p>
+              <div class="project-techs">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/isismayumito-ux/portfolio" target="_blank" class="project-link"><i class="fab fa-github"></i> Código</a>
+                <a href="https://isismayumito-ux.github.io/portfolio/" class="project-link" onclick="triggerToast('Abrindo prévia com carinho! 🌊')"><i class="fas fa-external-link-alt"></i> Ver</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 3 -->
+          <article class="project-card">
+            <div class="project-banner"><i class="fa-solid fa-heart"></i></div>
+            <div class="project-content">
+              <h3 class="project-title">Site - Hobbie</h3>
+              <p class="project-desc">Site que fiz para a minha amiga no aniversário dela usando meu conhecimento em HTML e CSS, uma forma de hobbie.</p>
+              <div class="project-techs">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/isismayumito-ux/eu-amo-a-uzui" target="_blank" class="project-link"><i class="fab fa-github"></i> Código</a>
+                <a href="https://isismayumito-ux.github.io/eu-amo-a-uzui/" class="project-link" onclick="triggerToast('Abrindo prévia com carinho! 🌊')"><i class="fas fa-external-link-alt"></i> Ver</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="habilidades">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <h2 class="section-heading">Minhas Habilidades</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-box">
+            <h3><i class="fas fa-code"></i> Front-End</h3>
+            <div class="badge-grid">
+              <span class="skill-badge">🪼 HTML5</span>
+              <span class="skill-badge">🪼 CSS</span>
+              <span class="skill-badge">🪼 JavaScript</span>
+              <span class="skill-badge">🪼 Bootstrap</span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <h3><i class="fas fa-heart"></i> Outros & Ferramentas</h3>
+            <div class="badge-grid">
+              <span class="skill-badge">✨ Git & GitHub</span>
+              <span class="skill-badge">✨ MySQL</span>
+              <span class="skill-badge">✨ Vercel</span>
+              <span class="skill-badge">✨ Responsividade</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contato">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <h2 class="section-heading">Entre em Contato</h2>
+        </div>
+        <div class="contact-container">
+          <form class="contact-form" id="contact-form" onsubmit="handleForm(event)">
+            <div class="form-group">
+              <input type="text" id="c-name" placeholder="Seu Nome" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="c-email" placeholder="Seu E-mail" required>
+            </div>
+            <div class="form-group">
+              <textarea id="c-msg" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <a href="#hero" class="logo" style="font-size: 1.3rem;">🪼 Isis Mayumi</a>
+          <p style="margin-top: 0.4rem; font-size: 0.85rem;">Feito com atenção e código limpo.</p>
+        </div>
+        <div class="footer-socials">
+          <a href="https://github.com/isismayumito-ux" target="_blank" class="social-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:seu-email@exemplo.com" class="social-btn" aria-label="E-mail"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Isis Mayumi. Todos os direitos reservados.</p>
+        <a href="#hero" class="back-top" aria-label="Voltar ao topo"><i class="fas fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <div id="toast">Tudo certo por aqui! 🪼⭐</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
